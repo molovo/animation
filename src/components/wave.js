@@ -60,7 +60,6 @@ const Wave = () => {
                 animation: lineAnimation 10s linear forwards running;
                 stroke-linejoin: round;
                 stroke-dasharray: 3000 3000;
-                stroke: #c396f7;
                 fill: none;
                 will-change: stroke-dashoffset;
             }
@@ -91,6 +90,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.03px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -98,6 +99,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.05px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -105,6 +108,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.08px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -112,6 +117,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.1px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -119,6 +126,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.13px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -126,6 +135,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.15px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -133,6 +144,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.18px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -140,6 +153,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.21px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -147,6 +162,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.23px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -154,6 +171,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.26px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -161,6 +180,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.28px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -168,6 +189,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.31px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -175,6 +198,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.33px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -182,6 +207,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.36px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -189,6 +216,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.38px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -196,6 +225,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.41px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -203,6 +234,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.44px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -210,6 +243,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.46px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -217,6 +252,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.49px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -224,6 +261,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.51px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -231,6 +270,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.54px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -238,6 +279,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.56px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -245,6 +288,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.59px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -252,6 +297,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.62px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -259,6 +306,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.64px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -266,6 +315,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.67px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -273,6 +324,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.69px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -280,6 +333,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.72px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -287,6 +342,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.74px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -294,6 +351,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.77px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -301,6 +360,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.79px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -308,6 +369,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.82px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -315,6 +378,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.85px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -322,6 +387,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.87px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -329,6 +396,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.9px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -336,6 +405,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.92px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -343,6 +414,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.95px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -350,6 +423,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '1.97px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -357,6 +432,8 @@ const Wave = () => {
                 transform="translate(194.79 -56.77)"
                 style={{
                   strokeWidth: '2px',
+
+                  stroke: '#c396f7',
                 }}
               />
               <path
@@ -365,10 +442,6 @@ const Wave = () => {
                 style={{
                   stroke: '#c595f5',
                   strokeWidth: '2.05px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -377,10 +450,6 @@ const Wave = () => {
                 style={{
                   stroke: '#c695f3',
                   strokeWidth: '2.1px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -389,10 +458,6 @@ const Wave = () => {
                 style={{
                   stroke: '#c894f2',
                   strokeWidth: '2.15px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -401,10 +466,6 @@ const Wave = () => {
                 style={{
                   stroke: '#c994f0',
                   strokeWidth: '2.21px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -413,10 +474,6 @@ const Wave = () => {
                 style={{
                   stroke: '#cb93ee',
                   strokeWidth: '2.26px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -425,10 +482,6 @@ const Wave = () => {
                 style={{
                   stroke: '#cc92ec',
                   strokeWidth: '2.31px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -437,10 +490,6 @@ const Wave = () => {
                 style={{
                   stroke: '#ce92ea',
                   strokeWidth: '2.36px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -449,10 +498,6 @@ const Wave = () => {
                 style={{
                   stroke: '#cf91e8',
                   strokeWidth: '2.41px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -461,10 +506,6 @@ const Wave = () => {
                 style={{
                   stroke: '#d191e7',
                   strokeWidth: '2.46px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -473,10 +514,6 @@ const Wave = () => {
                 style={{
                   stroke: '#d290e5',
                   strokeWidth: '2.51px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -485,10 +522,6 @@ const Wave = () => {
                 style={{
                   stroke: '#d490e3',
                   strokeWidth: '2.56px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -497,10 +530,6 @@ const Wave = () => {
                 style={{
                   stroke: '#d58fe1',
                   strokeWidth: '2.62px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -509,10 +538,6 @@ const Wave = () => {
                 style={{
                   stroke: '#d78edf',
                   strokeWidth: '2.67px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -521,10 +546,6 @@ const Wave = () => {
                 style={{
                   stroke: '#d88ede',
                   strokeWidth: '2.72px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -533,10 +554,6 @@ const Wave = () => {
                 style={{
                   stroke: '#da8ddc',
                   strokeWidth: '2.77px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -545,10 +562,6 @@ const Wave = () => {
                 style={{
                   stroke: '#db8dda',
                   strokeWidth: '2.82px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -557,10 +570,6 @@ const Wave = () => {
                 style={{
                   stroke: '#dd8cd8',
                   strokeWidth: '2.87px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -569,10 +578,6 @@ const Wave = () => {
                 style={{
                   stroke: '#de8bd6',
                   strokeWidth: '2.92px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -581,10 +586,6 @@ const Wave = () => {
                 style={{
                   stroke: '#e08bd4',
                   strokeWidth: '2.97px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -593,10 +594,6 @@ const Wave = () => {
                 style={{
                   stroke: '#e18ad3',
                   strokeWidth: '3.03px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -605,10 +602,6 @@ const Wave = () => {
                 style={{
                   stroke: '#e38ad1',
                   strokeWidth: '3.08px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -617,10 +610,6 @@ const Wave = () => {
                 style={{
                   stroke: '#e489cf',
                   strokeWidth: '3.13px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -629,10 +618,6 @@ const Wave = () => {
                 style={{
                   stroke: '#e688cd',
                   strokeWidth: '3.18px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -641,10 +626,6 @@ const Wave = () => {
                 style={{
                   stroke: '#e788cb',
                   strokeWidth: '3.23px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -653,10 +634,6 @@ const Wave = () => {
                 style={{
                   stroke: '#e987c9',
                   strokeWidth: '3.28px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -665,10 +642,6 @@ const Wave = () => {
                 style={{
                   stroke: '#ea87c8',
                   strokeWidth: '3.33px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -677,10 +650,6 @@ const Wave = () => {
                 style={{
                   stroke: '#ec86c6',
                   strokeWidth: '3.38px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -689,10 +658,6 @@ const Wave = () => {
                 style={{
                   stroke: '#ed85c4',
                   strokeWidth: '3.44px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -701,10 +666,6 @@ const Wave = () => {
                 style={{
                   stroke: '#ef85c2',
                   strokeWidth: '3.49px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -713,10 +674,6 @@ const Wave = () => {
                 style={{
                   stroke: '#f084c0',
                   strokeWidth: '3.54px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -725,10 +682,6 @@ const Wave = () => {
                 style={{
                   stroke: '#f284bf',
                   strokeWidth: '3.59px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -737,10 +690,6 @@ const Wave = () => {
                 style={{
                   stroke: '#f383bd',
                   strokeWidth: '3.64px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -749,10 +698,6 @@ const Wave = () => {
                 style={{
                   stroke: '#f583bb',
                   strokeWidth: '3.69px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -761,10 +706,6 @@ const Wave = () => {
                 style={{
                   stroke: '#f682b9',
                   strokeWidth: '3.74px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -773,10 +714,6 @@ const Wave = () => {
                 style={{
                   stroke: '#f881b7',
                   strokeWidth: '3.79px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -785,10 +722,6 @@ const Wave = () => {
                 style={{
                   stroke: '#f981b5',
                   strokeWidth: '3.85px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -797,10 +730,6 @@ const Wave = () => {
                 style={{
                   stroke: '#fb80b4',
                   strokeWidth: '3.9px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -809,10 +738,6 @@ const Wave = () => {
                 style={{
                   stroke: '#fc80b2',
                   strokeWidth: '3.95px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
               <path
@@ -821,10 +746,6 @@ const Wave = () => {
                 style={{
                   stroke: '#ff80b0',
                   strokeWidth: '4px',
-                  strokeLinecap: 'round',
-                  strokeLinejoin: 'round',
-                  strokeDasharray: '3000 3000',
-                  fill: 'none',
                 }}
               />
             </g>
