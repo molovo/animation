@@ -1,0 +1,30 @@
+.animate-on-scroll
+  opacity: 0
+  transform: translateY(5vh)
+  transition: opacity $transitionDuration $transitionTimingFunction, transform $transitionDurationLong $transitionTimingFunction
+
+  &.animated
+    opacity: 1
+    transform: translateY(0)
+
+// @keyframes animationLine
+//   0%
+//     stroke-dasharray: 0 -3000px !important
+
+//   100%
+//     stroke-dasharray: 0.1 10px !important
+
+// @keyframes animation
+//   0%
+//     transform: scaleX(0)
+
+//   100%
+//     transform: scaleX(100%)
+
+// svg path
+//   animation: animationLine 5s linear infinite !important
+//   animation-play-state: running
+
+// svg
+//   animation: animation 5s !important
+//   transform-origin: 100% 50%
