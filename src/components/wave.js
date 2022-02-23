@@ -27,8 +27,10 @@ const Wave = () => {
   useEffect(() => {
     if (svg.current) {
       warp.current = new Warp(svg.current)
-      warp.current.interpolate(30)
+      warp.current.interpolate(50)
+      warp.current.extrapolate(50)
       warp.current.transform(([x, y]) => [x, y, y])
+      //   warp.current.preInterpolate(([x, y]) => [x, y, y], 100)
       requestAnimationFrame(() => {
         setOffset(0.1)
       })
