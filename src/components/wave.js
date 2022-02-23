@@ -48,13 +48,21 @@ const Wave = () => {
   return (
     <>
       <style>{`
-            #svg path {
-                stroke-linecap: round;
-                stroke-linejoin: round;
-                stroke-dasharray: .1 10;
-                fill: none;
-                will-change: stroke-dashoffset;
-            }
+          @keyFrames lineAnimation {
+              0% {
+                  stroke-dashoffset: 3000;
+              }
+              100% {
+                  stroke-dashoffset: 0;
+              }
+          }
+          #svg path {
+              animation: lineAnimation 10s linear forwards running;
+              stroke-linejoin: round;
+              stroke-dasharray: 3000 3000;
+              fill: none;
+              will-change: stroke-dashoffset;
+          }
         `}</style>
       <svg
         xmlns="http://www.w3.org/2000/svg"
