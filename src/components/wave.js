@@ -1,55 +1,39 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useCallback, useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import DrawSVGPlugin from 'gsap/all'
 import MotionPathPlugin from 'gsap/all'
+import Warp from 'warpjs'
 
 const Wave = () => {
-  // const el = useRef()
-  // const q = gsap.utils.selector(el);
+  const svg = useRef()
+  const warp = useRef()
+  const [offset, setOffset] = useState(0)
 
-  // const lastPath = useRef()
+  useEffect(() => {
+    if (!warp.current) {
+      return
+    }
 
-  // useEffect(() => {
+    warp.current.transform(([x, y, oy]) => [
+      x,
+      oy + 25 * Math.sin(x / 80 + offset),
+      oy,
+    ])
+    setOffset((offset) => offset + 0.1)
+  }, [offset])
 
-  //     gsap.registerPlugin(MotionPathPlugin, DrawSVGPlugin);
-  //     // gsap.from("path", {
-  //     //     y: 100,
-  //     //     duration: 1,
-  //     //     drawSVG: 0
-  //     // });
-
-  //     // gsap.from(lastPath.current, {
-  //     //     duration: 3,
-  //     //     // opacity:0,
-  //     //     repeat: -1,
-  //     //     repeatDelay: 0.14,
-  //     //     yoyo: true,
-  //     //     stagger: {
-  //     //         from: "random",
-  //     //         amount: 0.3
-  //     //     },
-  //     //     drawSVG: 0,
-  //     //     ease: "expo.inOut"
-  //     // });
-
-  //     gsap.from(q('path'), {
-  //         duration: 3,
-  //         // opacity:0,
-  //         repeat: -1,
-  //         repeatDelay: 0.14,
-  //         yoyo: true,
-  //         stagger: {
-  //             from: "random",
-  //             amount: 0.3
-  //         },
-  //         drawSVG: 0,
-  //         ease: "expo.inOut"
-  //     });
-  // }, [])
+  useEffect(() => {
+    if (svg.current) {
+      warp.current = new Warp(svg.current)
+      warp.current.interpolate(30)
+      warp.current.transform(([x, y]) => [x, y, y])
+      setOffset(0.1)
+    }
+  }, [])
 
   return (
     <>
-      <style>{`
+      {/* <style>{`
             @keyFrames lineAnimation {
                 0% {
                     stroke-dashoffset: 0;
@@ -60,12 +44,14 @@ const Wave = () => {
             }
             #svg path {
                 animation: lineAnimation 1.5s linear infinite running;
+                will-change: stroke-dashoffset;
             }
-        `}</style>
+        `}</style> */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 2435.63 1009.33"
         id="svg"
+        ref={svg}
       >
         <defs>
           <clipPath id="a" transform="translate(194.79 -56.77)">
