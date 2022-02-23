@@ -19,7 +19,9 @@ const Wave = () => {
       oy + 25 * Math.sin(x / 80 + offset),
       oy,
     ])
-    setOffset((offset) => offset + 0.1)
+    requestAnimationFrame(() => {
+      setOffset((offset) => offset + 0.1)
+    })
   }, [offset])
 
   useEffect(() => {
@@ -27,7 +29,9 @@ const Wave = () => {
       warp.current = new Warp(svg.current)
       warp.current.interpolate(30)
       warp.current.transform(([x, y]) => [x, y, y])
-      setOffset(0.1)
+      requestAnimationFrame(() => {
+        setOffset(0.1)
+      })
     }
   }, [])
 
